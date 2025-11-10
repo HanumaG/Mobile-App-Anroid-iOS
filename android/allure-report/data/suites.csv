@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","32","should demonstrate successful Clarien banking login","Clarien Mobile Banking - Allure Report Demo","Mon Nov 10 15:12:47 CST 2025","passed","Mon Nov 10 15:12:47 CST 2025","","Authentication Flow Tests","",""
+"","1","should demonstrate app navigation flow","AI-Enhanced Clarien Mobile Banking Demo Test Suite","Mon Nov 10 15:11:22 CST 2025","broken","Mon Nov 10 15:11:22 CST 2025","","App Navigation Tests","",""
+"","14","should navigate through banking features","Clarien Mobile Banking - Allure Report Demo","Mon Nov 10 15:12:47 CST 2025","passed","Mon Nov 10 15:12:47 CST 2025","","App Navigation Tests","",""
+"","5","should demonstrate successful login flow with Allure reporting","AI-Enhanced Clarien Mobile Banking Demo Test Suite","Mon Nov 10 15:11:22 CST 2025","broken","Mon Nov 10 15:11:22 CST 2025","","Login Functionality Tests","",""
+"","11","should handle invalid login credentials","Clarien Mobile Banking - Allure Report Demo","Mon Nov 10 15:12:47 CST 2025","passed","Mon Nov 10 15:12:47 CST 2025","","Authentication Flow Tests","",""
+"","8","should validate app security features","Clarien Mobile Banking - Allure Report Demo","Mon Nov 10 15:12:47 CST 2025","passed","Mon Nov 10 15:12:47 CST 2025","","Security Tests","",""
+"","1","should demonstrate invalid login error handling","AI-Enhanced Clarien Mobile Banking Demo Test Suite","Mon Nov 10 15:11:22 CST 2025","broken","Mon Nov 10 15:11:22 CST 2025","","Login Functionality Tests","",""

@@ -1,0 +1,41 @@
+{
+  "name": "node-appium-app-browserstack",
+  "version": "0.1.0",
+  "readme": "NodeJS Integration with [BrowserStack](https://www.browserstack.com)",
+  "description": "Appium iOS examples for NodeJS and BrowserStack App Automate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/browserstack/node-appium-app-browserstack.git"
+  },
+  "scripts": {
+    "sample-test": "browserstack-node-sdk mocha test/clarien_login_test.js --timeout 300000",
+    "sample-local-test": "browserstack-node-sdk node test/sample_local_test.js",
+    "local-test": "npx mocha test/clarien_local_test.js --timeout 300000 --reporter allure-mocha --reporter-options resultsDir=allure-results",
+    "allure-generate": "allure generate allure-results --clean -o allure-report",
+    "allure-serve": "allure serve allure-results",
+    "allure-open": "allure open allure-report",
+    "clean-reports": "Remove-Item -Recurse -Force allure-results,allure-report -ErrorAction SilentlyContinue; Write-Host 'Reports cleaned'",
+    "postinstall": "npm update browserstack-node-sdk"
+  },
+  "keywords": [
+    "browserstack",
+    "appium",
+    "tests"
+  ],
+  "bugs": {
+    "url": "https://github.com/browserstack/node-appium-app-browserstack/issues"
+  },
+  "homepage": "https://github.com/browserstack/node-appium-app-browserstack#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.10.0"
+  },
+  "engines": {
+    "node": "^6"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.34.1",
+    "allure-mocha": "^3.4.2",
+    "browserstack-node-sdk": "latest",
+    "mocha": "^11.7.5"
+  }
+}
